@@ -138,3 +138,4 @@ Received Import Request.
 Start importing Assets/Standard Assets/ParticleSystems/Prefabs/Smoke.prefab using Guid(921a3ff88856fe04ebc86b196fd8cc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f78916b6499211b7dac92177c627722') in 0.005226 seconds
   Import took 0.008240 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
