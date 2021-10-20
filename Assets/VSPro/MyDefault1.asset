@@ -323,7 +323,7 @@ MonoBehaviour:
     UseVegetationMask: 0
     VegetationTypeIndex: 1
     RuntimePrefabRuleList: []
-  - VegetationItemID: 373b065b-159b-4e43-96e6-88bea2df52ec
+  - VegetationItemID: 1a4a8958-5f25-4b29-9eb6-2f5a6a10e7cd
     Name: Tree9_2
     VegetationType: 2
     PrefabType: 0
@@ -333,7 +333,7 @@ MonoBehaviour:
     VegetationPrefab: {fileID: 114418, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
     VegetationTexture: {fileID: 0}
     VegetationGuid: be878d9ea17907f4a8068678a5ce7908
-    SampleDistance: 7.734991
+    SampleDistance: 7.8386564
     Density: 0.1
     RandomizePosition: 1
     UseVegetationMasksOnStorage: 0
@@ -350,7 +350,7 @@ MonoBehaviour:
       m_Extent: {x: 9.311924, y: 11.429313, z: 7.883443}
     ScaleMultiplier: {x: 1, y: 1, z: 1}
     RenderDistanceFactor: 1
-    Seed: 1
+    Seed: 14
     MinScale: 0.8
     MaxScale: 1.2
     YScale: 1
@@ -374,15 +374,15 @@ MonoBehaviour:
     NavMeshArea: 0
     UseBillboards: 1
     BillboardQuality: 0
-    BillboardTexture: {fileID: 2800000, guid: f3b97f765dc30974c82ab276d7d5d077, type: 3}
-    BillboardNormalTexture: {fileID: 2800000, guid: b653eb93ec7debf41902a022238b10ee, type: 3}
+    BillboardTexture: {fileID: 2800000, guid: 70e69f5ee295b4b4aaceb3c37e782d10, type: 3}
+    BillboardNormalTexture: {fileID: 2800000, guid: 752da2b8871fd754ca71566ebff59da2, type: 3}
     BillboardAoTexture: {fileID: 0}
     BillboardSourceLODLevel: 0
     BillboardColorSpace: 0
     BillboardBrightness: 1
     BillboardCutoff: 0.2
     BillboardTintColor: {r: 1, g: 1, b: 1, a: 1}
-    BillboardAtlasBackgroundColor: {r: 0.3301887, g: 0.33018866, b: 0.06697223, a: 1}
+    BillboardAtlasBackgroundColor: {r: 0.3137255, g: 0.3137255, b: 0.078431375, a: 1}
     BillboardMipmapBias: -2
     BillboardWindSpeed: 1
     BillboardSmoothness: 0.2
@@ -534,7 +534,7 @@ MonoBehaviour:
     UseVegetationMask: 0
     VegetationTypeIndex: 1
     RuntimePrefabRuleList: []
-  - VegetationItemID: d4a06114-951a-426f-b178-51680b5152d4
+  - VegetationItemID: 5fbf20a6-d448-4bb2-bd50-17fa030f538a
     Name: Tree9_3
     VegetationType: 2
     PrefabType: 0
@@ -544,7 +544,7 @@ MonoBehaviour:
     VegetationPrefab: {fileID: 114418, guid: 8b2d47fdc2e25ac4f9721480a68bbefa, type: 3}
     VegetationTexture: {fileID: 0}
     VegetationGuid: 8b2d47fdc2e25ac4f9721480a68bbefa
-    SampleDistance: 7.6066494
+    SampleDistance: 8.109555
     Density: 0.1
     RandomizePosition: 1
     UseVegetationMasksOnStorage: 0
@@ -585,8 +585,8 @@ MonoBehaviour:
     NavMeshArea: 0
     UseBillboards: 1
     BillboardQuality: 0
-    BillboardTexture: {fileID: 2800000, guid: cad47f57a10cf774b979c01360e93ec3, type: 3}
-    BillboardNormalTexture: {fileID: 2800000, guid: 50c24ed9ecc0aac4b939a1b16d557117, type: 3}
+    BillboardTexture: {fileID: 2800000, guid: 49ec0bac9d07d4c4d8f415d2493c5a71, type: 3}
+    BillboardNormalTexture: {fileID: 2800000, guid: 34e37625e133a0a46832b4921ac7eb2c, type: 3}
     BillboardAoTexture: {fileID: 0}
     BillboardSourceLODLevel: 0
     BillboardColorSpace: 0
@@ -745,7 +745,7 @@ MonoBehaviour:
     UseVegetationMask: 0
     VegetationTypeIndex: 1
     RuntimePrefabRuleList: []
-  - VegetationItemID: f002a309-4c3f-4d42-a89e-7177d95e71ea
+  - VegetationItemID: d160225e-5497-446c-accc-03cbaf16238d
     Name: Tree9_4
     VegetationType: 2
     PrefabType: 0
@@ -755,7 +755,7 @@ MonoBehaviour:
     VegetationPrefab: {fileID: 114418, guid: 956bd2acf7aae244dac8fc20cf57858d, type: 3}
     VegetationTexture: {fileID: 0}
     VegetationGuid: 956bd2acf7aae244dac8fc20cf57858d
-    SampleDistance: 7.734991
+    SampleDistance: 8.81949
     Density: 0.1
     RandomizePosition: 1
     UseVegetationMasksOnStorage: 0
@@ -772,7 +772,7 @@ MonoBehaviour:
       m_Extent: {x: 10.202947, y: 11.230027, z: 7.7607913}
     ScaleMultiplier: {x: 1, y: 1, z: 1}
     RenderDistanceFactor: 1
-    Seed: 66
+    Seed: 40
     MinScale: 0.8
     MaxScale: 1.2
     YScale: 1
@@ -796,8 +796,8 @@ MonoBehaviour:
     NavMeshArea: 0
     UseBillboards: 1
     BillboardQuality: 0
-    BillboardTexture: {fileID: 2800000, guid: fe347745bae14704991743184b49054c, type: 3}
-    BillboardNormalTexture: {fileID: 2800000, guid: 35ff22eafecbc274098db394d652c3d2, type: 3}
+    BillboardTexture: {fileID: 2800000, guid: 696d1577a2b7f5146930d143e7f615f3, type: 3}
+    BillboardNormalTexture: {fileID: 2800000, guid: 90dfff71210c1b14396d33416ba2e155, type: 3}
     BillboardAoTexture: {fileID: 0}
     BillboardSourceLODLevel: 0
     BillboardColorSpace: 0
@@ -956,7 +956,7 @@ MonoBehaviour:
     UseVegetationMask: 0
     VegetationTypeIndex: 1
     RuntimePrefabRuleList: []
-  - VegetationItemID: 5018305c-c9f4-4eac-b176-c3b25ac46d8a
+  - VegetationItemID: aa16996f-44cd-43a4-a8c2-2b5ae629d8b9
     Name: Tree9_5
     VegetationType: 2
     PrefabType: 0
@@ -966,7 +966,7 @@ MonoBehaviour:
     VegetationPrefab: {fileID: 114418, guid: 9b8fc966f95ea9c4194dc091fc40b478, type: 3}
     VegetationTexture: {fileID: 0}
     VegetationGuid: 9b8fc966f95ea9c4194dc091fc40b478
-    SampleDistance: 7.6066494
+    SampleDistance: 7.4924593
     Density: 0.1
     RandomizePosition: 1
     UseVegetationMasksOnStorage: 0
@@ -983,7 +983,7 @@ MonoBehaviour:
       m_Extent: {x: 8.962568, y: 11.788198, z: 9.344164}
     ScaleMultiplier: {x: 1, y: 1, z: 1}
     RenderDistanceFactor: 1
-    Seed: 9
+    Seed: 29
     MinScale: 0.8
     MaxScale: 1.2
     YScale: 1
@@ -1007,8 +1007,8 @@ MonoBehaviour:
     NavMeshArea: 0
     UseBillboards: 1
     BillboardQuality: 0
-    BillboardTexture: {fileID: 2800000, guid: 6b5ab677cd729e646b46c5894c1b3b86, type: 3}
-    BillboardNormalTexture: {fileID: 2800000, guid: dc29facdb58bda645a022818b18a5657, type: 3}
+    BillboardTexture: {fileID: 2800000, guid: e9fa185453a5bff44a2bf06623c72baf, type: 3}
+    BillboardNormalTexture: {fileID: 2800000, guid: 7a42606a43abbea40bd4d2e0c80e1ade, type: 3}
     BillboardAoTexture: {fileID: 0}
     BillboardSourceLODLevel: 0
     BillboardColorSpace: 0
@@ -1087,17 +1087,17 @@ MonoBehaviour:
     UseNoiseCutoff: 0
     NoiseCutoffValue: 0.5
     NoiseCutoffScale: 5
-    NoiseCutoffInverse: 0
+    NoiseCutoffInverse: 1
     NoiseCutoffOffset: {x: 0, y: 0}
     UseNoiseDensity: 1
     NoiseDensityScale: 5
-    NoiseDensityInverse: 0
+    NoiseDensityInverse: 1
     NoiseDensityOffset: {x: 0, y: 0}
     UseNoiseScaleRule: 0
     NoiseScaleMinScale: 0.7
     NoiseScaleMaxScale: 1.3
     NoiseScaleScale: 5
-    NoiseScaleInverse: 0
+    NoiseScaleInverse: 1
     NoiseScaleOffset: {x: 0, y: 0}
     UseBiomeEdgeScaleRule: 0
     BiomeEdgeScaleDistance: 10
