@@ -5,9 +5,14 @@ using UnityEngine;
 public class playermovement : MonoBehaviour
 {
 	//Deklarasi Variabel
-	private float kecepatan=7f;
+	[SerializeField] public float kecepatan;
 	public float x;
 	public float z;
+    [SerializeField] private float speed_jump = 3f;
+    [SerializeField] private float speed_jalan = 3f;
+    [SerializeField] private float speed_lari = 7f;
+
+
 
     [SerializeField] private float gravitasi = -9.81f;
     [SerializeField] private Transform groundcheck;
@@ -16,7 +21,7 @@ public class playermovement : MonoBehaviour
     public bool isGrounded;
     Vector3 velocity;
 
-	//Referenai
+	//Referensi
 	private CharacterController controller;
 
     // Start is called before the first frame update
@@ -30,6 +35,8 @@ public class playermovement : MonoBehaviour
     {
         gravity();
         bergerak();
+        lompat();
+        jalan();
     }
 
     private void bergerak()
@@ -47,9 +54,29 @@ public class playermovement : MonoBehaviour
         if (isGrounded && velocity.y < 0)
         {
             velocity.y = -2f;
+        }        
+    }
+
+    private void lompat()
+    {
+        if (Input.GetButtonDown("Jump") && isGrounded )
+        {
+            velocity.y = Mathf.Sqrt(speed_jump * -2f * gravitasi);
         }
 
         velocity.y += gravitasi * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
+    }
+
+    private void jalan()
+    {
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            kecepatan = speed_jalan;
+        }
+        else
+        {
+            kecepatan = speed_lari;
+        }
     }
 }

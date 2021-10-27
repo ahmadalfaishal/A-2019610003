@@ -15,11 +15,11 @@ D:/Libraries/Documents/GitHub/A-2019610003
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49741
+55487
 Successfully changed project path to: D:/Libraries/Documents/GitHub/A-2019610003
 D:/Libraries/Documents/GitHub/A-2019610003
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 177.69 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 119.40 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -37,291 +37,119 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003219 seconds.
+Registered in 0.003936 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 171.69 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 120.15 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.181 seconds
+- Completed reload, in  1.785 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007131 seconds.
+Registered in 0.004315 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 170.26 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 185.48 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.997 seconds
+- Completed reload, in  3.855 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
 Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 1.50 ms, found 0 plugins.
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2173 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 213.1 MB.
-System memory in use after: 212.8 MB.
+Unloading 2175 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.4 MB.
+System memory in use after: 215.2 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2663.
-Total: 6.104500 ms (FindLiveObjects: 0.388800 ms CreateObjectMapping: 0.080400 ms MarkObjects: 4.653400 ms  DeleteObjects: 0.980200 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Tree9/Tree9_5.prefab
-  artifactKey: Guid(9b8fc966f95ea9c4194dc091fc40b478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree9/Tree9_5.prefab using Guid(9b8fc966f95ea9c4194dc091fc40b478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8d8224be81ab63cdbe52184de0cab0') in 0.792084 seconds
-  Import took 0.803035 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000602 seconds.
-  path: Assets/Tree9/Tree9_4.prefab
-  artifactKey: Guid(956bd2acf7aae244dac8fc20cf57858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree9/Tree9_4.prefab using Guid(956bd2acf7aae244dac8fc20cf57858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5c78d44037948e15b1cda238149b37') in 0.129071 seconds
-  Import took 0.156886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 296.609252 seconds.
-  path: Assets/VSPro/MyDefault1_billboards/billboard_373b065b-159b-4e43-96e6-88bea2df52ec.png
-  artifactKey: Guid(f3b97f765dc30974c82ab276d7d5d077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VSPro/MyDefault1_billboards/billboard_373b065b-159b-4e43-96e6-88bea2df52ec.png using Guid(f3b97f765dc30974c82ab276d7d5d077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b824e44eef7c95376713cd501d393489') in 0.314835 seconds
-  Import took 0.325427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000500 seconds.
-  path: Assets/VSPro/MyDefault1_billboards/billboard_5018305c-c9f4-4eac-b176-c3b25ac46d8a.png
-  artifactKey: Guid(6b5ab677cd729e646b46c5894c1b3b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VSPro/MyDefault1_billboards/billboard_5018305c-c9f4-4eac-b176-c3b25ac46d8a.png using Guid(6b5ab677cd729e646b46c5894c1b3b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a362eb6f26c36e22ab210837a2348029') in 0.048145 seconds
-  Import took 0.078045 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000529 seconds.
-  path: Assets/VSPro/MyDefault1_billboards/billboard_373b065b-159b-4e43-96e6-88bea2df52ec.png
-  artifactKey: Guid(f3b97f765dc30974c82ab276d7d5d077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VSPro/MyDefault1_billboards/billboard_373b065b-159b-4e43-96e6-88bea2df52ec.png using Guid(f3b97f765dc30974c82ab276d7d5d077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b824e44eef7c95376713cd501d393489') in 0.018246 seconds
-  Import took 0.026800 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000466 seconds.
-  path: Assets/VSPro/MyDefault1_billboards/billboard_d4a06114-951a-426f-b178-51680b5152d4.png
-  artifactKey: Guid(cad47f57a10cf774b979c01360e93ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VSPro/MyDefault1_billboards/billboard_d4a06114-951a-426f-b178-51680b5152d4.png using Guid(cad47f57a10cf774b979c01360e93ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454cabc2f80785865e5076b844fa8e48') in 0.028371 seconds
-  Import took 0.038997 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000582 seconds.
-  path: Assets/VSPro/MyDefault1_billboards/billboard_5018305c-c9f4-4eac-b176-c3b25ac46d8a.png
-  artifactKey: Guid(6b5ab677cd729e646b46c5894c1b3b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VSPro/MyDefault1_billboards/billboard_5018305c-c9f4-4eac-b176-c3b25ac46d8a.png using Guid(6b5ab677cd729e646b46c5894c1b3b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a362eb6f26c36e22ab210837a2348029') in 0.052183 seconds
-  Import took 0.061661 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000441 seconds.
-  path: Assets/VSPro/MyDefault1_billboards/billboard_d4a06114-951a-426f-b178-51680b5152d4.png
-  artifactKey: Guid(cad47f57a10cf774b979c01360e93ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VSPro/MyDefault1_billboards/billboard_d4a06114-951a-426f-b178-51680b5152d4.png using Guid(cad47f57a10cf774b979c01360e93ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454cabc2f80785865e5076b844fa8e48') in 0.016454 seconds
-  Import took 0.025634 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.419896 seconds.
-  path: Assets/Medieval Mega Pack/MMP 1/Textures/Bark_1 Normal.png
-  artifactKey: Guid(8a250c77195a3b94a99b388b041861c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 1/Textures/Bark_1 Normal.png using Guid(8a250c77195a3b94a99b388b041861c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62516583033f5052b09689468e61f1bc') in 0.138969 seconds
-  Import took 0.151676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000556 seconds.
-  path: Assets/Medieval Mega Pack/MMP 1/Textures/Bark 2A Normal.png
-  artifactKey: Guid(d8f1b8f44d1206f408bcff9c03c6fc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 1/Textures/Bark 2A Normal.png using Guid(d8f1b8f44d1206f408bcff9c03c6fc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1c883cd26e24891a2f5174306c5a3b') in 0.073216 seconds
-  Import took 0.083684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000572 seconds.
-  path: Assets/Medieval Mega Pack/MMP 1/Textures/Bark_1 Normal 2.png
-  artifactKey: Guid(b233b459d96b4a442858f152bc88ef87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 1/Textures/Bark_1 Normal 2.png using Guid(b233b459d96b4a442858f152bc88ef87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889d1025be330cf64b56d910cd229f68') in 0.043334 seconds
-  Import took 0.053614 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000448 seconds.
-  path: Assets/Medieval Mega Pack/MMP 1/Textures/Bark_1.png
-  artifactKey: Guid(cb79312e87905be49a3a86d76374fbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack/MMP 1/Textures/Bark_1.png using Guid(cb79312e87905be49a3a86d76374fbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f302d18f69a0a92d0be87315ec0af6fe') in 0.068585 seconds
-  Import took 0.078662 seconds .
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2667.
+Total: 3.514200 ms (FindLiveObjects: 0.329300 ms CreateObjectMapping: 0.078700 ms MarkObjects: 2.384000 ms  DeleteObjects: 0.720100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.168235 seconds.
+Registered in 0.002842 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.407 seconds
-Platform modules already initialized, skipping
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
-Refreshing native plugins compatible for Editor in 2.14 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 205.7 MB.
-System memory in use after: 205.4 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2715.
-Total: 7.576100 ms (FindLiveObjects: 0.804800 ms CreateObjectMapping: 0.167500 ms MarkObjects: 5.492800 ms  DeleteObjects: 1.105800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005434 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.58 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.217 seconds
-Platform modules already initialized, skipping
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
-Refreshing native plugins compatible for Editor in 3.12 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 205.8 MB.
-System memory in use after: 205.5 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2720.
-Total: 7.023600 ms (FindLiveObjects: 0.902400 ms CreateObjectMapping: 0.245400 ms MarkObjects: 4.714000 ms  DeleteObjects: 1.158300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005317 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.08 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.679 seconds
-Platform modules already initialized, skipping
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
-Refreshing native plugins compatible for Editor in 2.67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 205.8 MB.
-System memory in use after: 205.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2725.
-Total: 7.418200 ms (FindLiveObjects: 0.842600 ms CreateObjectMapping: 0.361300 ms MarkObjects: 4.909500 ms  DeleteObjects: 1.301300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 689.656903 seconds.
-  path: Assets/New Terrain 5.asset
-  artifactKey: Guid(0c35694b27ff9f247a3c44782b7c7efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 5.asset using Guid(0c35694b27ff9f247a3c44782b7c7efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ac1758ed3aa90a33931d16c20ef930') in 0.392414 seconds
-  Import took 0.401820 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000465 seconds.
-  path: Assets/TerrainData_ccb91806-2b5e-4d4a-916f-7ff13efc51e0.asset
-  artifactKey: Guid(e6402623b3fe56d4ebaccd71539a360a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_ccb91806-2b5e-4d4a-916f-7ff13efc51e0.asset using Guid(e6402623b3fe56d4ebaccd71539a360a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0016e99bf563e9458569ed22098912e') in 0.152460 seconds
-  Import took 0.165049 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000517 seconds.
-  path: Assets/TerrainData_187d0ad0-81d4-4c13-8eeb-4a654277c9f1.asset
-  artifactKey: Guid(2fab2a82b2532024687c3d8e2f1cf5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_187d0ad0-81d4-4c13-8eeb-4a654277c9f1.asset using Guid(2fab2a82b2532024687c3d8e2f1cf5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a46063006198c353c35071a636a4304') in 0.097079 seconds
-  Import took 0.108347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 222.187052 seconds.
-  path: Assets/Rock Package
-  artifactKey: Guid(692242d5738ed544ebcb5dc3dbee4d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rock Package using Guid(692242d5738ed544ebcb5dc3dbee4d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4948f499c24b89f44ed6930063fe69e') in 0.020314 seconds
-  Import took 0.031456 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.032833 seconds.
-  path: Assets/Rock Package
-  artifactKey: Guid(692242d5738ed544ebcb5dc3dbee4d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rock Package using Guid(692242d5738ed544ebcb5dc3dbee4d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4948f499c24b89f44ed6930063fe69e') in 0.047261 seconds
-  Import took 0.059812 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.127234 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.489 seconds
-Platform modules already initialized, skipping
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
-Refreshing native plugins compatible for Editor in 1.74 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 205.9 MB.
-System memory in use after: 205.7 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2730.
-Total: 7.292700 ms (FindLiveObjects: 0.995300 ms CreateObjectMapping: 0.350700 ms MarkObjects: 4.736300 ms  DeleteObjects: 1.206800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 466.453001 seconds.
-  path: Assets/Medieval Mega Pack
-  artifactKey: Guid(600221bb03dab8c4a85715b9139dec0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medieval Mega Pack using Guid(600221bb03dab8c4a85715b9139dec0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f42819d35a5fbe94d0762f121cc5993') in 0.041436 seconds
-  Import took 0.047819 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002972 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.092 seconds
 Platform modules already initialized, skipping
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
 Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2059 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 205.9 MB.
-System memory in use after: 205.7 MB.
+Unloading 2060 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 204.4 MB.
+System memory in use after: 204.2 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2735.
-Total: 3.652700 ms (FindLiveObjects: 0.347000 ms CreateObjectMapping: 0.070000 ms MarkObjects: 2.401300 ms  DeleteObjects: 0.832400 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2672.
+Total: 5.174200 ms (FindLiveObjects: 0.568400 ms CreateObjectMapping: 0.272300 ms MarkObjects: 3.722400 ms  DeleteObjects: 0.608900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004037 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.486 seconds
+Platform modules already initialized, skipping
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2060 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 204.5 MB.
+System memory in use after: 204.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2677.
+Total: 6.409000 ms (FindLiveObjects: 0.431300 ms CreateObjectMapping: 0.219300 ms MarkObjects: 4.610200 ms  DeleteObjects: 1.145500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Movement/playermovement.cs
+  artifactKey: Guid(3b2b0f8111575284f8d10e257c0e39ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/playermovement.cs using Guid(3b2b0f8111575284f8d10e257c0e39ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91cd89c6838cba2d4b2c5718af871bf3') in 0.059716 seconds
+  Import took 0.096572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Movement/animator.controller
+  artifactKey: Guid(92db5c5d5d7a8d64b9e53ee3223d8929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/animator.controller using Guid(92db5c5d5d7a8d64b9e53ee3223d8929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b5acef16f68af755866b976372de08') in 0.040456 seconds
+  Import took 0.070482 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005094 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.658 seconds
+Platform modules already initialized, skipping
+Shader 'Enviro/Standard/SkyboxSimple': fallback shader 'None' not found
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2060 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 204.5 MB.
+System memory in use after: 204.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2682.
+Total: 5.539200 ms (FindLiveObjects: 0.408400 ms CreateObjectMapping: 0.130800 ms MarkObjects: 3.857500 ms  DeleteObjects: 1.140000 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
