@@ -10,7 +10,7 @@ public class playermovement : MonoBehaviour
 	public float z;
     [SerializeField] private float speed_jump = 3f;
     [SerializeField] private float speed_jalan = 3f;
-    [SerializeField] private float speed_lari = 7f;
+    [SerializeField] public float speed_lari = 7f;
 
 
 

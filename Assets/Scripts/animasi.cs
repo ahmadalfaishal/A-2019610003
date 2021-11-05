@@ -9,7 +9,6 @@ public class animasi : MonoBehaviour
     private float nilai_x;
     private float nilai_z;
     private bool status_ground;
-    private bool gaya;
 
     // Reference
     private Animator anim;
@@ -20,7 +19,6 @@ public class animasi : MonoBehaviour
     {
         anim = GetComponentInChildren<Animator>();
         player = GameObject.Find("Player");
-        bergaya();
     }
 
     // Update is called once per frame
@@ -34,12 +32,5 @@ public class animasi : MonoBehaviour
         anim.SetFloat("z", nilai_z);
         anim.SetFloat("cepat", cepat);
         anim.SetBool("isGrounded", status_ground);
-    }
-    private void bergaya()
-    {
-        if (Input.GetKey(KeyCode.LeftControl))
-        {
-            gaya = false;
-        }
     }
 }
