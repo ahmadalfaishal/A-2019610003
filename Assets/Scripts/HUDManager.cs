@@ -13,8 +13,9 @@ public class HUDManager : MonoBehaviour
     private float kecepatanLari;
     private float input_x;
     private float input_z;
-
     public Text time;
+    [SerializeField] GameObject pauseMenu;
+    public static bool GameIsPaused = false;
 
     // Start is called before the first frame update
     void Start()
@@ -35,6 +36,7 @@ public class HUDManager : MonoBehaviour
         EnergyDrain();
         UpdateEnergy();
         UpdateTime();
+        ShowPauseMenu();
     }
 
     private void EnergyDrain()
@@ -93,5 +95,37 @@ public class HUDManager : MonoBehaviour
         }
 
         time.text = gameHours + " : " + gameMinutes;
+    }
+
+    private void ShowPauseMenu()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (GameIsPaused)
+            {
+                Resume();
+            }
+            else
+            {
+                Pause();
+            }
+        }
+    }
+
+    public void Resume()
+    {
+        pauseMenu.SetActive(false);
+        GameIsPaused = false;
+
+        Time.timeScale = 1f;
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+
+    void Pause()
+    {
+        pauseMenu.SetActive(true);
+        GameIsPaused = true;
+        Time.timeScale = 0f;
+        Cursor.lockState = CursorLockMode.Confined;
     }
 }

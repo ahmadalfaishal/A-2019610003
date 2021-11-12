@@ -20,7 +20,10 @@ public class camera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float mouseX = Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
-        parent.Rotate(Vector3.up, mouseX);
+        if (!HUDManager.GameIsPaused)
+        {
+            float mouseX = Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
+            parent.Rotate(Vector3.up, mouseX);
+        }        
     }
 }
