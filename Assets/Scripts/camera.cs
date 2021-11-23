@@ -5,25 +5,28 @@ using UnityEngine;
 public class camera : MonoBehaviour
 {
     // Variable
-    [SerializeField] private float sensitivity;
+    [SerializeField] private float kecepatanRotasi = 100f;
+    [SerializeField] private float mouseX, mouseY;
 
     // References
-    private Transform parent;
+    public Transform player, target;
 
     // Start is called before the first frame update
     void Start()
     {
-        parent = transform.parent;
         Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!HUDManager.GameIsPaused)
-        {
-            float mouseX = Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
-            parent.Rotate(Vector3.up, mouseX);
-        }        
+        mouseX += Input.GetAxis("Mouse X")* kecepatanRotasi;
+        mouseY -= Input.GetAxis("Mouse Y")* kecepatanRotasi;
+
+        mouseY = Mathf.Clamp(mouseY, -35, 60);
+        transform.LookAt(target);
+
+        target.rotation = Quaternion.Euler(mouseY, mouseX, 0);
+        player.rotation = Quaternion.Euler(0, mouseX, 0);    
     }
 }

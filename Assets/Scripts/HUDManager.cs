@@ -16,6 +16,10 @@ public class HUDManager : MonoBehaviour
     public Text time;
     [SerializeField] GameObject pauseMenu;
     public static bool GameIsPaused = false;
+    public Player playerInstance;
+    private float darah;
+    private float maxDarah = 100f;
+    public Image currentDarah;
 
     // Start is called before the first frame update
     void Start()
@@ -33,10 +37,13 @@ public class HUDManager : MonoBehaviour
 
         input_z = player.GetComponent<playermovement>().z;
 
+        darah = player.GetComponent<sistem_darah>().darah_player;
+
         EnergyDrain();
         UpdateEnergy();
         UpdateTime();
         ShowPauseMenu();
+        UpdateDarah();
     }
 
     private void EnergyDrain()
@@ -127,5 +134,16 @@ public class HUDManager : MonoBehaviour
         GameIsPaused = true;
         Time.timeScale = 0f;
         Cursor.lockState = CursorLockMode.Confined;
+    }
+
+    public void SaveGame()
+    {
+        SaveSystem.SavePlayer(playerInstance);
+    }
+
+    private void UpdateDarah()
+    {
+        float ratio = darah / maxDarah;
+        currentDarah.rectTransform.localScale = new Vector3(ratio, 1, 1);
     }
 }

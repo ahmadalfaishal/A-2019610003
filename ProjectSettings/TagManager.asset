@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - My Lighting
+  - Obstacle
+  - Fire
+  - Musuh
   layers:
   - Default
   - TransparentFX
